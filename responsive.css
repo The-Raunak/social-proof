@@ -1,0 +1,152 @@
+@media  screen and (max-width: 376px){
+    .main{
+        background-color: white;
+        width: 100vw;
+        display: flex;
+        font-family: 'League Spartan', sans-serif;
+        flex-direction: column;
+    }
+    .top{
+        padding: 5rem 0rem 0rem 0rem;
+        width: 100vw;
+        height: 80vh;
+    }
+    .topleft{
+        width: 100vw;
+    }
+    .head{
+        font-size: 2.3rem;
+        text-align: center;
+        padding-left: 3rem;
+        line-height: 1.9rem;
+        color: hsl(300, 43%, 22%);
+    }
+    .tl{
+        font-size: 16px;
+        text-align: center;
+        width: 80vw;
+        color: hsl(303, 10%, 53%);
+        font-weight: 500;
+        padding: 1.5rem 0rem 0rem 2rem;
+    }
+    .topright{
+        position: relative;
+        left: 1%;
+        top: 6%; 
+        display: flex;
+        flex-direction: column;
+        color: hsl(300, 43%, 22%);
+    }
+    .box1{
+        background-color: hsl(300, 24%, 96%);
+        padding: 0.8rem;
+        margin: 0rem 1.5rem;
+        display: inline;
+        width: 18rem;
+        border-radius: 9px;
+        font-weight: 700;
+    }
+    .box2{
+        background-color: hsl(300, 24%, 96%);
+        padding: 0.8rem;
+        display: inline;
+        width: 18rem;
+        margin: 0.8rem 1.5rem 0rem 1.5rem;
+        border-radius: 9px;
+        font-weight: 700;
+    }
+    .box3{
+        background-color: hsl(300, 24%, 96%);
+        padding: 0.8rem;
+        display: inline;
+        width: 18rem;
+        margin: 0.8rem 1.5rem 2rem 1.5rem;
+        border-radius: 9px;
+        font-weight: 700;
+    }
+    .tr{
+        margin: 0rem 0rem 0rem 4rem ;
+    }
+    .star{
+        padding-left: 6rem;
+    }
+    svg{
+        margin: 1px;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 9rem 0rem 2rem;
+        width: 80vw;
+        height: 30vh;
+    }
+    .bl{
+        width: 83vw;
+        height: 23vh;
+        background-color: hsl(300, 43%, 22%);
+        position: relative;
+        bottom: 40%;
+        border-radius: 8px;
+        flex-shrink: 0;
+    }
+    .bc{
+        width: 83vw;
+        height: 22vh;
+        background-color: hsl(300, 43%, 22%);
+        position: relative;
+        bottom: 35%;
+        left: 0%;
+        border-radius: 8px;
+        flex-shrink: 0;
+    }
+    .br{
+        width: 83vw;
+        height: 22vh;
+        background-color: hsl(300, 43%, 22%);
+        position: relative;
+        bottom: 30%;
+        left: 0%;
+        border-radius: 8px;
+        flex-shrink: 0;
+    }
+    img{
+        height: 2.5rem;
+        border-radius: 100%;
+    }
+    .head1{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        left: 10%;
+        top: 15%;
+    }
+    .name{
+        margin-left: 1.3rem;
+        color: white;
+        font-weight: 700;
+    }
+    .port{
+        color: hsl(333, 80%, 67%);
+        font-weight: 400;
+    }
+    .chat{
+        position: relative;
+        top: 26%;
+        padding: 0rem 2rem 1rem 2rem;
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 1.2rem;
+    }
+    .chat1{
+        position: relative;
+        top: 27%;
+        padding: 0rem 2rem 1rem 2rem;
+        color: white;
+        font-weight: 500;
+        line-height: 1.2rem;
+        font-size: 15px;
+    }
+}
+    
